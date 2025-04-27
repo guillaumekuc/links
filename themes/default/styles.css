@@ -1,9 +1,13 @@
 /* Reset default styles */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
+  --accent-color: #ffdd00;
+  --dark-font: black;
 }
 
 /* Light mode (default) */
@@ -157,6 +161,11 @@ a {
 
   .link-button:hover {
     background-color: #30363d;
+  }
+
+  .highlight {
+    background-color: var(--accent-color) !important;
+    color: var(--dark-font) !important; 
   }
 
   .icon-button {
