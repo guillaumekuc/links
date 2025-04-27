@@ -67,7 +67,7 @@ links:
       title: "Guillaume Kuc's Resume"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-file-lines"
+      icon: "fa-solid fa-robot"
       text: "Ask my Bot Anything" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
       url: "https://t.me/guillaumekuc_repbot"
       alt: "Guillaume Kuc's LLM Representative"
@@ -75,7 +75,7 @@ links:
       target: "_blank"
   - link:
       icon: "fa-solid fa-coffee"
-      text: "Coffee Tip!"
+      text: "Buy Me a Coffee"
       url: "https://buymeacoffee.com/guillaumekuc"
       alt: "Guillaume Kuc's Buy Me a Coffee"
       title: "Guillaume Kuc's Buy Me a Coffee"
