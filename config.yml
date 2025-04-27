@@ -25,7 +25,7 @@ plugins:
 google_analytics_id:
 
 # HTML Title
-title: "Guillaume Kuc's Links"
+title: "Guillaume Kuc – Links"
 
 # Avatar image path
 avatar: "./images/profile.jpeg"
