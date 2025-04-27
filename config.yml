@@ -60,6 +60,13 @@ links:
       title: "Guillaume Kuc's Blog"
       target: "_blank"
   - link:
+      icon: "fa-solid fa-star"
+      text: "Resources & Inspiration"
+      url: "https://guillaumekuc.github.io/blog/awesome"
+      alt: "Guillaume Kuc's Awesome List"
+      title: "Guillaume Kuc's Awesome List"
+      target: "_blank"
+  - link:
       icon: "fa-solid fa-file-lines"
       text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
       url: "https://guillaumekuc.github.io/resume/"
