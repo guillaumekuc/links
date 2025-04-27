@@ -53,6 +53,13 @@ links:
       title: "Guillaume Kuc's Portfolio Website"
       target: "_blank"
   - link:
+      icon: "fa-solid fa-file-lines"
+      text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
+      url: "https://guillaumekuc.github.io/resume/"
+      alt: "Guillaume Kuc's Resume"
+      title: "Guillaume Kuc's Resume"
+      target: "_blank"
+  - link:
       icon: "fa-solid fa-pen"
       text: "Blog" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
       url: "https://guillaumekuc.github.io/blog/"
@@ -65,13 +72,6 @@ links:
       url: "https://guillaumekuc.github.io/blog/awesome"
       alt: "Guillaume Kuc's Awesome List"
       title: "Guillaume Kuc's Awesome List"
-      target: "_blank"
-  - link:
-      icon: "fa-solid fa-file-lines"
-      text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
-      url: "https://guillaumekuc.github.io/resume/"
-      alt: "Guillaume Kuc's Resume"
-      title: "Guillaume Kuc's Resume"
       target: "_blank"
   - link:
       icon: "fa-solid fa-robot"
