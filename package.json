@@ -1,0 +1,10 @@
+{
+  "name": "guillaumekuc-links",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "bundle exec ruby scaffold.rb"
+  },
+  "devDependencies": {
+    "open": "^9.1.0"
+  }
+}
