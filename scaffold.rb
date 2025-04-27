@@ -12,7 +12,7 @@ settings = YAML.load_file("config.yml") || {}
 
 #
 source_dir = "./themes/#{settings["theme"] || "default"}"
-destination_dir = "./_output/"
+destination_dir = "./docs/"
 
 # Clean _output folder
 if Dir.exist?(destination_dir)

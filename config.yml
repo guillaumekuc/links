@@ -67,6 +67,13 @@ links:
       title: "Guillaume Kuc's Resume"
       target: "_blank"
   - link:
+      icon: "fa-solid fa-file-lines"
+      text: "Ask my Bot Anything" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
+      url: "https://t.me/guillaumekuc_repbot"
+      alt: "Guillaume Kuc's LLM Representative"
+      title: "Guillaume Kuc's LLM Representative"
+      target: "_blank"
+  - link:
       icon: "fa-solid fa-coffee"
       text: "Coffee Tip!"
       url: "https://buymeacoffee.com/guillaumekuc"
