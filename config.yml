@@ -46,7 +46,7 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-solid fa-folder-open"
+      icon: "fa-solid fa-palette"
       text: "Portfolio"
       url: "https://guillaumekuc.art/"
       alt: "Guillaume Kuc's Portfolio Website"
@@ -90,8 +90,6 @@ links:
       class: "highlight"
 
 
-
-
 # List of social media links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
 # title: The url title
@@ -103,31 +101,31 @@ socials:
       icon: "fa-brands fa-github"
       url: "https://github.com/guillaumekuc"
       title: "GitHub"
-      alt: "Guillaume Kuc's GitHub"
+      alt: "GitHub"
       target: "_blank"
   - social:
       icon: "fa-brands fa-artstation"
       url: "https://artstation.com/guillaumekuc"
       title: "ArtStation"
-      alt: "Guillaume Kuc's ArtStation"
+      alt: "ArtStation"
       target: "_blank"
   - social:
       icon: "fa-brands fa-soundcloud"
       url: "https://soundcloud.com/guillaume-kuc-945925946"
       title: "SoundCloud"
-      alt: "Guillaume Kuc's SoundCloud"
+      alt: "SoundCloud"
       target: "_blank"
   - social:
       icon: "fa-brands fa-bluesky"
       url: "https://@guillaumekuc.bsky.social"
       title: "Bluesky"
-      alt: "Guillaume Kuc's Bluesky"
+      alt: "Bluesky"
       target: "_blank"
   - social:
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/guillaumekuc/"
       title: "LinkedIn"
-      alt: "Guillaume Kuc's LinkedIn"
+      alt: "LinkedIn"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"
@@ -138,7 +136,7 @@ socials:
 
 # Footer text
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Bluesky or LinkedIn.
+    Hi there! Follow me on Bluesky or GitHub, or stay connected on Bluesky or LinkedIn.
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
