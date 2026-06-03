@@ -31,12 +31,12 @@ title: "Guillaume Kuc – Links"
 avatar: "./images/profile.jpeg"
 
 # Name section text
-name: "@guillaumekuc"
+name: "Guillaume Kuc"
 
 # Tagline section text
 tagline: >-
-    <p><b>Technical Artist</b> — 2D · 3D · Music · Code</p>
-    <p>Working on: <b>Vilja</b> (preproduction)</p>
+    <b>Technical Artist</b> — 2D · 3D · Music · Code
+    <br>Working on: <i>Vilja</i> (game, preproduction)
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -46,6 +46,13 @@ tagline: >-
 # alt: Alternative text for accessibility
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
+  - link:
+      icon: "fa-solid fa-person-digging"
+      text: "Vilja"
+      url: "https://github.com/guillaumekuc/vilja-preproduction/"
+      alt: "Active project: Vilja"
+      title: "Active project: Vilja"
+      target: "_blank"
   - link:
       icon: "fa-solid fa-palette"
       text: "Portfolio"
@@ -130,9 +137,9 @@ socials:
 
 # Footer text
 footer: >
-    Hi there! Follow me on Bluesky or GitHub, or stay connected on Bluesky or LinkedIn.
+    © 2025 Guillaume Kuc · Grenoble Metropolitan area, France · guillaume[at]guillaumekuc.com
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
 copyright: >
-  © 2024  <a href="https://guillaumekuc.art" target="_blank">Guillaume Kuc</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
+  Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
