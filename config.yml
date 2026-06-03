@@ -35,7 +35,8 @@ name: "@guillaumekuc"
 
 # Tagline section text
 tagline: >-
-    Technical Artist from France. 2D/3D Digital Arts, Music Production, Scripting & Tools Development.
+    <p><b>Technical Artist</b> — 2D · 3D · Music · Code</p>
+    <p>Working on: <b>Vilja</b> (preproduction)</p>
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -53,13 +54,6 @@ links:
       title: "Guillaume Kuc's Portfolio Website"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-file-lines"
-      text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
-      url: "https://guillaumekuc.github.io/resume/"
-      alt: "Guillaume Kuc's Resume"
-      title: "Guillaume Kuc's Resume"
-      target: "_blank"
-  - link:
       icon: "fa-solid fa-pen"
       text: "Blog" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
       url: "https://guillaumekuc.github.io/blog/"
@@ -74,11 +68,11 @@ links:
       title: "Guillaume Kuc's Awesome List"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-robot"
-      text: "Ask my Bot Anything" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
-      url: "https://t.me/guillaumekuc_repbot"
-      alt: "Guillaume Kuc's LLM Representative"
-      title: "Guillaume Kuc's LLM Representative"
+      icon: "fa-solid fa-file-lines"
+      text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
+      url: "https://guillaumekuc.github.io/resume/"
+      alt: "Guillaume Kuc's Resume"
+      title: "Guillaume Kuc's Resume"
       target: "_blank"
   - link:
       icon: "fa-solid fa-coffee"
