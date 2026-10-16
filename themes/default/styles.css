@@ -10,6 +10,11 @@
   --dark-font: black;
 }
 
+::selection {
+  background-color: var(--accent-color);
+  color: white;
+}
+
 /* Light mode (default) */
 body {
   background-color: #ffffff;
