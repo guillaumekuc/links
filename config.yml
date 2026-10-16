@@ -35,8 +35,7 @@ name: "Guillaume Kuc"
 
 # Tagline section text
 tagline: >-
-    <b>Technical Artist</b> — 2D · 3D · Music · Code
-    <br>Working on: <i>Vilja</i> (game, preproduction)
+    2D · 3D · Music · Code | Technical Art
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -47,49 +46,52 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-solid fa-person-digging"
-      text: "Vilja"
-      url: "https://github.com/guillaumekuc/vilja-preproduction/"
-      alt: "Active project: Vilja"
-      title: "Active project: Vilja"
-      target: "_blank"
-  - link:
-      icon: "fa-solid fa-palette"
+      icon: "fa-solid fa-house"
       text: "Portfolio"
       url: "https://guillaumekuc.art/"
-      alt: "Guillaume Kuc's Portfolio Website"
-      title: "Guillaume Kuc's Portfolio Website"
+      title: "Portfolio"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-artstation"
+      text: "ArtStation"
+      url: "https://www.artstation.com/guillaumekuc"
+      title: "ArtStation"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-github"
+      text: "GitHub"
+      url: "https://github.com/guillaumekuc"
+      title: "GitHub"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-soundcloud"
+      text: "SoundCloud"
+      url: "https://soundcloud.com/guillaumekuc"
+      title: "SoundCloud"
       target: "_blank"
   - link:
       icon: "fa-solid fa-pen"
-      text: "Blog" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
+      text: "Blog"
       url: "https://guillaumekuc.github.io/blog/"
-      alt: "Guillaume Kuc's Blog"
-      title: "Guillaume Kuc's Blog"
+      title: "Blog"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-star"
-      text: "Resources & Inspiration"
-      url: "https://guillaumekuc.github.io/blog/awesome"
-      alt: "Guillaume Kuc's Awesome List"
-      title: "Guillaume Kuc's Awesome List"
-      target: "_blank"
-  - link:
-      icon: "fa-solid fa-file-lines"
-      text: "Resume" # <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>
+      icon: "fa-solid fa-briefcase"
+      text: "Resume"
       url: "https://guillaumekuc.github.io/resume/"
-      alt: "Guillaume Kuc's Resume"
-      title: "Guillaume Kuc's Resume"
+      title: "Resume"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-coffee"
-      text: "Buy Me a Coffee"
-      url: "https://buymeacoffee.com/guillaumekuc"
-      alt: "Guillaume Kuc's Buy Me a Coffee"
-      title: "Guillaume Kuc's Buy Me a Coffee"
+      icon: "fa-solid fa-store"
+      text: "Gumroad"
+      url: "https://guillaumekuc.gumroad.com/"
+      title: "Gumroad"
       target: "_blank"
-      class: "highlight"
-
+  - link:
+      icon: "fa-solid fa-envelope"
+      text: "Contact"
+      url: "mailto:guillaume@guillaumekuc.com"
+      title: "Email: guillaume@guillaumekuc.com"
 
 # List of social media links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -97,47 +99,10 @@ links:
 # url: The URL of the social media link
 # alt: Alternative text for accessibility
 # target: _blank opens in a new tab, _self opens in the same frame
-socials:
-  - social:
-      icon: "fa-brands fa-github"
-      url: "https://github.com/guillaumekuc"
-      title: "GitHub"
-      alt: "GitHub"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-artstation"
-      url: "https://artstation.com/guillaumekuc"
-      title: "ArtStation"
-      alt: "ArtStation"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-soundcloud"
-      url: "https://soundcloud.com/guillaume-kuc-945925946"
-      title: "SoundCloud"
-      alt: "SoundCloud"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-bluesky"
-      url: "https://@guillaumekuc.bsky.social"
-      title: "Bluesky"
-      alt: "Bluesky"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/guillaumekuc/"
-      title: "LinkedIn"
-      alt: "LinkedIn"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-envelope"
-      url: "mailto:guillaume@guillaumekuc.com"
-      title: "Email: guillaume@guillaumekuc.com"
-      alt: "guillaume@guillaumekuc.com"
-      target: "_blank"
 
 # Footer text
 footer: >
-    © 2025 Guillaume Kuc · Grenoble Metropolitan area, France · guillaume[at]guillaumekuc.com
+    © 2026 Guillaume Kuc · Grenoble Metropolitan area, France · guillaume[at]guillaumekuc.com
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
