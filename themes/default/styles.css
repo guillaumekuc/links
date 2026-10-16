@@ -230,7 +230,7 @@ a {
 
   .highlight {
     background-color: var(--accent-color) !important;
-    color: var(--dark-font) !important; 
+    color: white !important;
   }
 
   .icon-button {

@@ -92,6 +92,7 @@ links:
       text: "Contact"
       url: "mailto:guillaume@guillaumekuc.com"
       title: "Email: guillaume@guillaumekuc.com"
+      class: "highlight"
 
 # List of social media links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
