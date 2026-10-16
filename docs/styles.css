@@ -34,13 +34,80 @@ a {
   max-width: 450px;
 }
 
+/* Avatar with halftone + emblem hover (ported from portfolio ProfileAvatar) */
+.profile-avatar {
+  --avatar-size: 120px;
+  --outline-color: var(--accent-color);
+  --outline-width: 4px;
+  --half-tone: url('./images/dots.svg');
+  --half-tone-size: 86px;
+  --avatar-mask-background: rgba(0, 0, 0, 1);
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto 15px;
+}
+
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  display: block;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
-  border: 2px solid black;
+  box-sizing: content-box;
+  border: 4px solid transparent;
+  box-shadow: 0 0 0 0px var(--outline-color);
+  transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.profile-avatar-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.profile-avatar-mask {
+  position: absolute;
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  background-color: var(--avatar-mask-background);
+  -webkit-mask: var(--half-tone);
+  -webkit-mask-size: var(--half-tone-size);
+  mask: var(--half-tone);
+  mask-size: var(--half-tone-size);
+  mask-type: alpha;
+}
+
+.profile-avatar-emblem {
+  position: absolute;
+  width: calc(var(--avatar-size) * 0.875);
+  height: calc(var(--avatar-size) * 0.875);
+  fill: white;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-avatar:hover .profile-avatar-overlay {
+  opacity: 1;
+}
+
+.profile-avatar:hover .profile-avatar-emblem {
+  transform: scale(1.0);
+}
+
+.profile-avatar:hover .profile-pic {
+  box-shadow: 0 0 0 var(--outline-width) var(--outline-color);
 }
 
 .name {
@@ -144,10 +211,6 @@ a {
 
   a {
     color: white;
-  }
-
-  .profile-pic {
-    border-color: white;
   }
 
   .description {
