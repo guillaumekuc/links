@@ -37,7 +37,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css?v={{ 'now' | date: '%s' }}" />
 </head>
 <body>
   <div class="container">
@@ -176,6 +176,6 @@
       gtag('config', '{{ google_analytics_id }}');
     </script>
   {% endif %}
-  <script src="./scripts.js"></script>
+  <script src="./scripts.js?v={{ 'now' | date: '%s' }}"></script>
 </body>
 </html>
